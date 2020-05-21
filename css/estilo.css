@@ -1,0 +1,254 @@
+.container-main-menu
+{
+	background-image: url(../img/destaque.jpeg);
+	background-size: cover;
+	padding-top: 32px;
+}
+
+.container-main-menu .menu-option
+{
+	text-align: center;
+}
+
+.container-main-menu .menu-option li
+{
+	display: inline-block;
+	margin: 0 6px 32px 0;
+}
+
+.container-main-menu .menu-option a
+{
+	color: white;
+	background: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 0.8em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background-color 0.5s;
+}
+
+.container-main-menu .menu-option a:hover
+{
+	background-color: #48A3A6;
+}
+
+.container-main-menu .jumbotron
+{
+	padding: 0 0 44px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 4px 4px 10px black;
+}
+
+.container-main-menu .jumbotron .title
+{
+	font-size: 3em;
+	max-width: 100%;
+}
+
+.container-main-menu .jumbotron .subtitle
+{
+	margin-top: 2%;
+	font-size: 2em;
+	color: #64FF64;
+}
+
+.container-main-menu .jumbotron .panel-subscribe
+{
+	margin-top: 2%;
+}
+
+.button
+{
+	border: 2px solid white;
+	display: inline-block;
+	padding: 1em 1.8em;
+	color: white;
+	font-size: 1em;
+	background-color: #48A3A6;
+	text-decoration: none;
+	border-radius: 8px;
+}
+
+@media (min-width: 600px)
+{
+
+	.container-main-menu .jumbotron .title
+	{
+		font-size: 4em;
+	}
+
+	.container-main-menu .jumbotron .subtitle
+	{
+		font-size: 3em;
+	}
+
+	.container-main-menu .jumbotron .button
+	{
+		font-size: 1.5em;
+	}
+
+}
+
+@media (min-width: 840px)
+{
+	.container-main-menu .jumbotron .title
+	{
+		font-size: 5em;
+	}
+
+	.container-main-menu .jumbotron .subtitle
+	{
+		font-size: 4em;
+	}
+
+	.container-main-menu .jumbotron .button
+	{
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 1048px)
+{
+	.container-main-menu .jumbotron .title
+	{
+		font-size: 6em;
+	}
+
+	.container-main-menu .jumbotron .subtitle
+	{
+		font-size: 5em;
+	}
+
+	.container-main-menu .jumbotron .button
+	{
+		font-size: 3em;
+	}
+}
+
+/*--About Conf--*/
+
+.container
+{
+	width: 93%;
+	margin: 0 auto;
+}
+
+.panel-about
+{
+	text-align: center;
+	margin-top: 3%;
+}
+
+.panel-about .title
+{
+	font-size: 2.3em;
+	margin-bottom: 3%;
+}
+
+.panel-about .subtitle
+{
+	font-size: 1.9em;
+	margin-bottom: 3%;
+}
+
+.panel-about .about-description
+{
+	font-size: 1.4em;
+	margin-bottom: 3%;
+	line-height: 1.3em;
+}
+
+/*--Speakers--*/
+.panel-speaker
+{
+	text-align: center;
+	background-color: #EF7247;
+}
+
+.panel-speaker .about-speakers
+{
+	color: white;
+	text-transform: uppercase;
+	padding-top: 5%;
+}
+
+.panel-speaker .title
+{
+	font-size: 2.8em;
+	margin-bottom: 3%;
+}
+
+.panel-speaker .subtitle
+{
+	font-size: 1.9em;
+	margin-bottom: 1%;
+}
+
+.panel-speaker .speaker
+{
+	display: inline-block;
+	background-color: white;
+	width: 250px;
+	vertical-align: top;
+	margin: 8% 0 8% 4%;
+	padding: 5% 5%;
+	border-radius: 4%;
+}
+
+.panel-speaker .speaker-portrait img
+{
+	border-radius: 112.5px;
+	margin-bottom: 5%;
+}
+
+.panel-speaker .speaker-portrait .speaker-name
+{
+	margin: 2% 0;
+}
+
+.panel-speaker .speaker-portrait .speaker-bio
+{
+	margin: 7% 0;
+	font-weight: bold;
+}
+
+/*--Form--*/
+
+.panel-form
+{
+	margin-top: 5%;
+}
+
+.panel-form .title
+{
+	text-align: center;
+	color: #EF7247;
+	text-transform: uppercase;
+	font-size: 2.4em;
+}
+
+.panel-form label
+{
+	display: block;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 2%;
+}
+
+.panel-form .field-input
+{
+	width: 100%;
+	font-size: 1.2em;
+	margin-bottom: 3%;
+	padding: 1% 0;
+	border-radius: 5px;
+	box-shadow: 0.8px 0.8px 8px #48A3A6;
+}
+
+.button-place
+{
+	margin-top: 5%;
+	text-align: center;
+}
